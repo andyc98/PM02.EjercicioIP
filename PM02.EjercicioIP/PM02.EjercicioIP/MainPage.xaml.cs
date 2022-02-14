@@ -19,5 +19,10 @@ namespace PM02.EjercicioIP
         {
             await Navigation.PushAsync(new PageOperaciones());
         }
+
+        private async void Envio_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PageDatos());
+        }
     }
 }
