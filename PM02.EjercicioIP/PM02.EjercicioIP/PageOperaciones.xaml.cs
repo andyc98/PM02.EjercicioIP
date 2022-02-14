@@ -22,9 +22,41 @@ namespace PM02.EjercicioIP
             var n1 = double.Parse(num1.Text);
             var n2 = double.Parse(num2.Text);
             var resultado = n1 + n2;
+            
+            res.Text = resultado.ToString();
+
+        }
+
+
+        private void Button_resta(object sender, EventArgs e)
+        {
+            var n1 = double.Parse(num1.Text);
+            var n2 = double.Parse(num2.Text);
+            var resultado = n1 -  n2;
 
             res.Text = resultado.ToString();
 
         }
+
+        private void Button_multiplicacion(object sender, EventArgs e)
+        {
+            var n1 = double.Parse(num1.Text);
+            var n2 = double.Parse(num2.Text);
+            var resultado = n1 * n2;
+
+            res.Text = resultado.ToString();
+
+        }
+
+        private void Button_dividir(object sender, EventArgs e)
+        {
+            var n1 = double.Parse(num1.Text);
+            var n2 = double.Parse(num2.Text);
+            var resultado = n1 / n2;
+
+            res.Text = resultado.ToString();
+
+        }
+
     }
 }

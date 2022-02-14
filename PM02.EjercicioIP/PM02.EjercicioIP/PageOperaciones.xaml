@@ -10,7 +10,9 @@
             <Entry Placeholder="Ingrese el segundo numero" x:Name="num2" Keyboard="Numeric"/>
             <Entry Placeholder="Resultado de la operación" x:Name="res"/>
             <Button Text="Sumar" Clicked="Button_suma" />
-            
+            <Button Text="Restar" Clicked="Button_resta" />
+            <Button Text="Multiplicar" Clicked="Button_multiplicacion" />
+            <Button Text="Dividir" Clicked="Button_dividir" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
